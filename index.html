@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <meta name="description" content="Viraj Shah Portfolio">
+    <meta name="robots" content="noindex, nofollow">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/b86affd28e.js" crossorigin="anonymous"></script>
+
+    <title>Portfolio | Viraj Shah</title>
+
+    <style>
+        body {
+            width: 90%;
+            margin: auto;
+            text-align: center;
+            font-family: "Raleway", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+            background-color: #121212;
+            min-height: 100%;
+            color: whitesmoke;
+        }
+
+        h1 {
+            font-weight: 400;
+        }
+
+        .projects > td:hover {
+            filter: drop-shadow(0px 0px 50px #692c1a);   
+            transition: filter 0.7s ease-in-out;
+        }
+
+        .skills > div:hover {
+            filter: drop-shadow(0px 0px 20px #4949ea);   
+            transition: filter 0.7s ease-in-out;    
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 1024px) {
+            body {
+                width: 95%;
+            }
+            /* Reduce large paddings/font-sizes slightly if needed */
+            header td h1 {
+                font-size: 36px !important;
+            }
+            header td p {
+                font-size: 16px !important;
+            }
+            .social-section, .resume-section {
+                /* We will stack these in narrow widths */
+                display: block !important;
+                width: 100% !important;
+                text-align: center !important;
+                padding-right: 0 !important;
+                margin-top: 10px;
+            }
+            .social-section p {
+                letter-spacing: 12px !important;
+            }
+        }
+
+        @media (max-width: 768px) {
+            body {
+                width: 95%;
+                margin: 0;
+                padding: 0 10px;    
+                text-align: center;
+            }
+            /* Convert table-based layout to block stacking */
+            .body-content > table {
+                display: block;
+                width: 100%;
+            }
+            .body-content > table tr {
+                display: block;
+                width: 100%;
+            }
+            .body-content > table tr:first-child td {
+                /* Header cells */
+                display: block;
+                width: 100%;
+                text-align: center !important;
+                padding: 10px 0 !important;
+                border-bottom: 4px solid #430e0ec3 !important;
+            }
+            .body-content > table tr:first-child td:nth-child(1),
+            .body-content > table tr:first-child td:nth-child(2) {
+                /* Combine left and right cells become full-width stacked */
+                display: block;
+            }
+            /* Social icons section */
+            .social-section {
+                text-align: center !important;
+                margin-top: 10px;
+            }
+            .social-section > p {
+                padding-top: 0px !important;
+            }
+            /* Resume button section */
+            .resume-section {
+                text-align: center !important;
+                margin: 10px auto;
+            }
+
+            /* ABOUT section */
+            .body-content img {
+                width: 100% !important;
+                max-width: none !important;
+            }
+            .body-content td[colspan] p {
+                /* Ensure text spans full width under image */
+                font-size: 16px !important;
+            }
+
+            /* EXPERIENCES section */
+            .body-content section.experiences,
+            .body-content table tr td {
+                width: 100% !important;
+                display: block;
+            }
+
+            /* SKILLS grid: switch to fewer columns */
+            .skills {
+                display: grid !important;
+                grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)) !important;
+                gap: 10px;
+            }
+            .skills > div {
+                padding: 20px !important;
+            }
+            .skills i {
+                font-size: 6vw !important;
+            }
+
+            /* PROJECTS: stack cards */
+            .projects {
+                display: block !important;
+            }
+            .projects td {
+                display: block !important;
+                width: 100% !important;
+                padding: 10px 0 !important;
+                box-sizing: border-box;
+                text-align: center !important;
+            }
+            .projects img {
+                width: 80% !important;
+                height: auto !important;
+            }
+
+            /* Footer name repetition */
+            .footer-section {
+                display: block !important;
+                width: 100% !important;
+                text-align: center !important;
+                border-top: 4px solid #1a0e43c3 !important;
+                padding: 20px 0 !important;
+            }
+            .footer-section h1 {
+                font-size: 36px !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="body-content">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: auto;">
+            <!-- Header Row -->
+            <tr>
+                <td style="text-align: left; border-bottom: 4px solid #430e0ec3;">
+                    <h1 style="font-size: 45px; margin: 20px auto; padding-top: 10px;">VIRAJ SHAH</h1>
+                    <p style="font-weight: 100; font-size: 18px; letter-spacing: 2px; line-height: 1.5; margin: 14px auto;  padding-left: 2px;">
+                        WEBSITE DESIGNER & DEVELOPER
+                    </p>
+                    <p style="font-weight: 100; font-style: italic; font-size: 13px; letter-spacing: 2px; line-height: 1.5; margin: 14px auto; padding-left: 2px;">
+                        -Tech enthusiast who codes, makes music & plays games
+                    </p>
+                </td>
+                <td style="height: 100%; vertical-align: top; text-align: right; padding-right: 1vw; border-bottom: 4px solid #430e0ec3;">
+                    <!-- Social icons -->
+                    <section class="social-section" style="width: fit-content; justify-self: end; letter-spacing: 18px; color: #c9c7c7; font-size: 25px;">
+                        <p style="padding-top: 20px;"> 
+                            <a href="mailto:viraj.shah1699@gmail.com" target="_blank" style="text-decoration: none;">
+                                <i class="fa-solid fa-envelope" style="color: #c9c7c7;"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/viraj-g-shah/" target="_blank" style="text-decoration: none;">
+                                <i class="fa-brands fa-linkedin" style="color: #c9c7c7;"></i>
+                            </a>
+                            <a href="https://github.com/CurlyHairedViz" target="_blank" style="text-decoration: none;">
+                                <i class="fa-brands fa-github" style="color: #c9c7c7;"></i>
+                            </a>
+                        </p>
+                    </section>
+                    <!-- Resume button -->
+                    <section class="resume-section" style="padding-top: 2vw; padding-bottom: 3vw; width: fit-content; justify-self: end; text-align: center;">
+                        <a href="docs/Resume Viraj Shah.pdf" target="_blank" style="padding: 15px; margin-right: 1.5vw; border-radius: 5px; background-color: #430e0ec3; text-decoration: none; font-weight: 600; font-size: 16px; color: #c9c7c7 ">
+                            MY RESUME <i class="fa-solid fa-caret-right"></i>
+                        </a>
+                    </section>
+                </td>
+            </tr>
+
+            <!-- ABOUT -->
+            <tr>
+                <td style="text-align: left; padding-top: 1vw; width: 50%;">
+                    <h2 style="font-weight: 400; color: #9e9e9e;">/_ ABOUT</h2>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top; text-align: left;">
+                    <img src="img/Viraj1.jpg" style="width: 80%;">
+                </td>
+                <td colspan="3" style="text-align: left;">
+                    <p style="font-weight: 200; font-size: 18px; letter-spacing: 2px; line-height: 1.8;">
+                        A passionate web developer with a diploma in Interactive Media Design and a Bachelor's in Computer Applications. Specialize in crafting responsive, engaging websites and applications with clean code. Currently exploring full-stack projects that push the boundaries of web development.
+                    </p>
+                </td>
+            </tr>
+
+            <!-- EXPERIENCES -->
+            <tr>
+                <td style="text-align: left; padding-top: 3vw;" colspan="2">
+                    <h2 style="font-weight: 400; color: #4377b6;">/_ EXPERIENCES</h2>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: left;">
+                    <p style="font-weight: 200; font-size: 12px; letter-spacing: 2px;"> February 2025 - Present </p>
+                    <p style="font-weight: 400; font-size: 18px; letter-spacing: 1px;">VOYSUS</p>
+                    <p style="font-weight: 200; font-size: 14px; letter-spacing: 2px;"> TECHNICAL SALES REPRESENTATIVE </p>
+                    <hr style="border: 2px solid #4377b6; width: 20%; margin-left: 0;">
+                    <ul style="font-weight: 200; font-size: 13px; letter-spacing: 2px; line-height: 1.8; padding-left: 20px;"> 
+                        <li> Developed strong relationships with clients and ensured long-term business success.</li>
+                        <li> Consistently set and exceeded sales targets and KPIs through effective management. </li>
+                        <li> Managed CRM systems for client account handling, issue resolution, and customer interactions. </li>
+                        <li> Applied analytical and problem-solving skills to resolve client issues, mirroring the investigative mindset needed for troubleshooting technical queries. </li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: left; padding-top: 15px;">
+                    <p style="font-weight: 200; font-size: 12px; letter-spacing: 2px;"> October 2023 - May 2024 </p>
+                    <p style="font-weight: 400; font-size: 18px; letter-spacing: 1px;">VR TECHIE</p>
+                    <p style="font-weight: 200; font-size: 14px; letter-spacing: 2px;"> FULL STACK DEVELOPER </p>
+                    <hr style="border: 2px solid #4377b6; width: 20%; margin-left: 0;">
+                    <ul style="font-weight: 200; font-size: 13px; letter-spacing: 2px; line-height: 1.8; padding-left: 20px;"> 
+                        <li> Built design mockups, wireframes, and collaborated with UI/UX designers to convert mockups into interactive prototypes. </li>
+                        <li> Developed responsive web applications using React.js, increasing user engagement by 30%.</li>
+                        <li> Ensure data integrity, security and scalability of database schemas with AWS Cloud, improving performance by 25%.</li>
+                        <li> Integrated third-party APIs to enhance application functionality and user experience. </li>
+                    </ul>
+                </td>
+            </tr>
+
+            <!-- SKILLS -->
+            <tr>
+                <td style="text-align: left; padding-top: 3vw;" colspan="2">
+                    <h2 style="font-weight: 400; color: #d59423;">/_ SKILLS</h2>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <section class="skills" style="display: grid; grid-template-columns: auto auto auto auto; gap: 10px;">
+                        <div style="padding: 50px;">
+                            <i class="fa-brands fa-html5" style="font-size: 4vw;"></i>
+                            <p>HTML</p>
+                        </div>
+                        <div style="padding: 50px;">
+                            <i class="fa-brands fa-css" style="font-size: 4vw;"></i>
+                            <p>CSS</p>
+                        </div>
+                        <div style="padding: 50px;">
+                            <i class="fa-brands fa-js" style="font-size: 4vw;"></i>
+                            <p>JavaScript</p>
+                        </div>
+                        <div style="padding: 50px;">
+                            <i class="fa-brands fa-php" style="font-size: 4vw;"></i>
+                            <p>PHP</p>
+                        </div>
+                        <div style="padding: 50px;">
+                            <i class="fa-brands fa-react" style="font-size: 4vw;"></i>
+                            <p>React</p>
+                        </div>
+                        <div style="padding: 50px;">
+                            <i class="fa-brands fa-node" style="font-size: 4vw;"></i>
+                            <p>NodeJS</p>
+                        </div>
+                        <div style="padding: 50px;">
+                            <i class="fa-solid fa-database" style="font-size: 4vw;"></i>
+                            <p>MySQL</p>
+                        </div>
+                        <div style="padding: 50px; margin-top: 18px;">
+                            <a href="docs/Resume Viraj Shah.pdf" target="_blank" style="text-decoration: none; color: #c9c7c7;">
+                                <i class="fa-solid fa-angle-right" style="font-size: 2vw;"></i>
+                                <p>See More</p>
+                            </a>
+                        </div>
+                    </section>
+                </td>
+            </tr>
+
+            <!-- PROJECTS -->
+            <tr>
+                <td style="text-align: left; padding-top: 3vw;" colspan="2">
+                    <h2 style="font-weight: 400; color: #9c3718;">/_ PROJECTS</h2>
+                </td>
+            </tr>
+            <tr class="projects">
+                <td style="vertical-align: top; text-align: left; padding: 20px 20px 20px 0;">
+                    <a href="projects/expressflix.html" style="text-decoration: none; color: whitesmoke;">
+                        <img src="img/Expressflix/expressflix.png" style="width: 90%; height: auto;">
+                        <p style="font-weight: 400; font-size: 18px; letter-spacing: 1px;">EXPRESSFLIX</p>
+                    </a>
+                    <p style="font-weight: 200; font-style: italic; font-size: 12px; letter-spacing: 2px; padding: 0;"> Technologies: React, MongoDB, MS Azure, Node.js </p>
+                    <p style="font-weight: 200; font-size: 14px; letter-spacing: 2px; line-height: 1.8;"> Built a scalable content streaming web application with optimized CRUD operations. Deployed application on Microsoft Azure for enhanced performance and availability. Applied database indexing and query fine-tuning to improve efficiency. </p>
+                </td>
+                <td style="vertical-align: top; text-align: left; padding: 20px 0 20px 20px;">
+                    <a href="projects/greengauge.html" style="text-decoration: none; color: whitesmoke;">
+                        <img src="img/Greengauge/greengauge.png" style="width: 90%; height: auto;">
+                        <p style="font-weight: 400; font-size: 18px; letter-spacing: 1px;">GREEN GAUGE</p>
+                    </a>
+                    <p style="font-weight: 200; font-style: italic; font-size: 12px; letter-spacing: 2px; padding: 0;"> Technologies: Express, MongoDB, Handlebars, Atlas Charts, ES6, Node.js, JavaScript</p>
+                    <p style="font-weight: 200; font-size: 14px; letter-spacing: 2px; line-height: 1.8;"> Developed a full-stack web application with optimized UI/UX and authentication. Designed a NoSQL database with query optimization and JSON data processing. Implemented data visualization using Atlas Charts for real-time insights. </p>                    
+                </td>
+            </tr>
+            <tr class="projects">
+                <td style="vertical-align: top; text-align: left; padding: 20px 20px 20px 0;">
+                    <a href="projects/spidercover.html" style="text-decoration: none; color: whitesmoke;">
+                        <img src="img/Spidercover/spidercover.png" style="width: 50%; height: auto;">
+                        <p style="font-weight: 400; font-size: 18px; letter-spacing: 1px; padding: 0;">SPIDER-COVER</p>
+                    </a>
+                    <p style="font-weight: 200; font-style: italic; font-size: 12px; letter-spacing: 2px; padding: 0;">Technologies: HTML, CSS </p>
+                    <p style="font-weight: 200; font-size: 14px; letter-spacing: 2px; line-height: 1.8;"> Transformed Marvel’s Spider-Man magazine cover into a responsive webpage using HTML and CSS, capturing the dynamic spirit of the title while showcasing robust design and precise coding skills.  </p>
+                </td>
+                <td style="vertical-align: top; text-align: left; padding: 20px 0 20px 20px;">
+                    <a href="projects/studenthaven.html" style="text-decoration: none; color: whitesmoke;">
+                        <img src="img/Studenthaven/studenthavenbarrie.png" style="width: 90%; height: auto;">
+                        <p style="font-weight: 400; font-size: 18px; letter-spacing: 1px; padding: 0;">STUDENT HAVEN BARRIE</p>
+                    </a>
+                    <p style="font-weight: 200; font-style: italic; font-size: 12px; letter-spacing: 2px; padding: 0;">Technologies: Express, MongoDB, Handlebars, Node.js, JavaScript </p>
+                    <p style="font-weight: 200; font-size: 14px; letter-spacing: 2px; line-height: 1.8;"> Developed a rental housing system using Express.js facilitating end-to-end communication and negotiation for students and homeowners. Ensured platform integrity and user data security by implementing user authentication and admin approval functionality, reducing unauthorized access.</p>
+                </td>
+            </tr>
+            <tr class="projects">
+                <td style="vertical-align: top; text-align: left; padding: 20px 20px 20px 0;">
+                    <a href="projects/beerbbq.html" style="text-decoration: none; color: whitesmoke;">
+                        <img src="img/BearBBQ/beerbbq.png" style="width: 90%; height: auto;">
+                        <p style="font-weight: 400; font-size: 18px; letter-spacing: 1px; padding: 0;">BEER, BBQ & BIRYANI</p>
+                    </a>
+                    <p style="font-weight: 200; font-style: italic; font-size: 12px; letter-spacing: 2px; padding: 0;">Technologies: HTML, CSS </p>
+                    <p style="font-weight: 200; font-size: 14px; letter-spacing: 2px; line-height: 1.8;"> Developed a brand website landing page which provided users with introduction to the brand and its products along with allowing them access to its services.</p>
+                </td>
+            </tr>
+
+            <!-- Footer Name Repeat -->
+            <tr>
+                <td colspan="2" style="padding-top: 3vw; padding-bottom: 3vw;">
+                    <div class="footer-section" style="width:50%; margin: 0 auto; text-align: center; border-top: 2px solid #484848c3;">
+                        <h1 style="font-size: 45px; margin: 20px auto; padding-top: 10px; ">THANK YOU</h1>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

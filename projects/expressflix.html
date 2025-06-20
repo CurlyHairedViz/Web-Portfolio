@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <meta name="description" content="ExpressFlix Project - Viraj Shah Portfolio">
+    <meta name="robots" content="noindex, nofollow">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/b86affd28e.js" crossorigin="anonymous"></script>
+
+    <title>ExpressFlix | Viraj Shah</title>
+
+    <style>
+        body {
+            width: 90%;
+            margin: auto;
+            text-align: center;
+            font-family: "Raleway", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+            background-color: #121212;
+            min-height: 100%;
+            color: whitesmoke;
+        }
+
+        h1 {
+            font-weight: 400;
+        }
+
+        .back-button:hover {
+            filter: drop-shadow(0px 0px 20px #4b4b4bc3);   
+            transition: filter 0.7s ease-in-out;    
+        }
+
+        .tech-stack > div:hover {
+            filter: drop-shadow(0px 0px 15px #d59423);   
+            transition: filter 0.7s ease-in-out;    
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 1024px) {
+            body {
+                width: 95%;
+            }
+            header td h1 {
+                font-size: 36px !important;
+            }
+            header td p {
+                font-size: 16px !important;
+            }
+            .social-section, .back-section {
+                display: block !important;
+                width: 100% !important;
+                text-align: center !important;
+                padding-right: 0 !important;
+                margin-top: 10px;
+            }
+            .social-section p {
+                letter-spacing: 12px !important;
+            }
+        }
+
+        @media (max-width: 768px) {
+            body {
+                width: 95%;
+                margin: 0;
+                padding: 0 10px;
+                text-align: center;
+            }
+            .body-content > table {
+                display: block;
+                width: 100%;
+            }
+            .body-content > table tr {
+                display: block;
+                width: 100%;
+            }
+            .body-content > table tr:first-child td {
+                display: block;
+                width: 100%;
+                text-align: center !important;
+                padding: 10px 0 !important;
+                border-bottom: 4px solid #430e0ec3 !important;
+            }
+            .body-content > table tr:first-child td:nth-child(1),
+            .body-content > table tr:first-child td:nth-child(2) {
+                display: block;
+            }
+            .social-section {
+                text-align: center !important;
+                margin-top: 10px;
+            }
+            .social-section > p {
+                padding-top: 0px !important;
+            }
+            .back-section {
+                text-align: center !important;
+                margin: 10px auto;
+            }
+
+            .body-content img {
+                width: 100% !important;
+                max-width: none !important;
+            }
+            .body-content td[colspan] p {
+                font-size: 16px !important;
+            }
+            .body-content section.experiences,
+            .body-content table tr td {
+                width: 100% !important;
+                display: block;
+            }
+            .tech-stack {
+                display: grid !important;
+                grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)) !important;
+                gap: 10px;
+            }
+            .tech-stack > div {
+                padding: 15px !important;
+            }
+
+            .project-images {
+                display: block !important;
+            }
+            .project-images td {
+                display: block !important;
+                width: 100% !important;
+                padding: 10px 0 !important;
+                box-sizing: border-box;
+            }
+            .project-images img {
+                width: 90% !important;
+                height: auto !important;
+            }
+
+            .footer-section {
+                display: block !important;
+                width: 100% !important;
+                text-align: center !important;
+                border-top: 4px solid #1a0e43c3 !important;
+                padding: 20px 0 !important;
+            }
+            .footer-section h1 {
+                font-size: 36px !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="body-content">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: auto;">
+            <!-- Header Row -->
+            <tr>
+                <td style="text-align: left; border-bottom: 4px solid #430e0ec3;">
+                    <h1 style="font-size: 45px; margin: 20px auto; padding-top: 10px;">EXPRESSFLIX</h1>
+                    <p style="font-weight: 100; font-size: 18px; letter-spacing: 2px; line-height: 1.5; margin: 14px auto; padding-left: 2px;">
+                        STREAMING WEB APPLICATION
+                    </p>
+                    <p style="font-weight: 100; font-style: italic; font-size: 13px; letter-spacing: 2px; line-height: 1.5; margin: 14px auto; padding-left: 2px;">
+                        -Full-stack content streaming platform built with modern technologies
+                    </p>
+                </td>
+                <td style="height: 100%; vertical-align: top; text-align: right; padding-right: 1vw; border-bottom: 4px solid #430e0ec3;">
+                    <!-- Social icons -->
+                    <section class="social-section" style="width: fit-content; justify-self: end; letter-spacing: 18px; color: #c9c7c7; font-size: 25px;">
+                        <p style="padding-top: 20px;"> 
+                            <a href="mailto:viraj.shah1699@gmail.com" target="_blank" style="text-decoration: none;">
+                                <i class="fa-solid fa-envelope" style="color: #c9c7c7;"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/viraj-g-shah/" target="_blank" style="text-decoration: none;">
+                                <i class="fa-brands fa-linkedin" style="color: #c9c7c7;"></i>
+                            </a>
+                            <a href="https://github.com/CurlyHairedViz" target="_blank" style="text-decoration: none;">
+                                <i class="fa-brands fa-github" style="color: #c9c7c7;"></i>
+                            </a>
+                        </p>
+                </td>
+            </tr>
+
+            
+            <!-- Back to Portfolio Row -->
+            <tr>
+                <td colspan="2" style="text-align: right; padding-top: 3vw; padding-bottom: 1vw;">
+                    <section class="back-section" style="width: fit-content; margin-left: 0; text-align: center;">
+                        <a href="../index.html" class="back-button" style="padding: 15px; border-radius: 5px; background-color: #4b4b4bc3; text-decoration: none; font-weight: 600; font-size: 16px; color: #c9c7c7">
+                            <i class="fa-solid fa-angle-left"></i> BACK TO PORTFOLIO
+                        </a>
+                    </section>
+                </td>
+            </tr>
+
+            <!-- PROJECT OVERVIEW -->
+            <tr>
+                <td style="text-align: left; padding-top: 1vw; width: 50%;">
+                    <h2 style="font-weight: 400; color: #9e9e9e;">/_ PROJECT OVERVIEW</h2>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: left;">
+                    <p style="font-weight: 200; font-size: 18px; letter-spacing: 2px; line-height: 1.8;">
+                        ExpressFlix is a comprehensive streaming web application that delivers seamless content consumption experience. Built with modern full-stack technologies, this project demonstrates advanced database optimization, cloud deployment strategies, and responsive user interface design principles.
+                    </p>
+                    <br>
+                    <a href="https://expressflix.onrender.com/" target="_blank" style="padding: 15px 25px; border-radius: 5px; background-color: #692c1a; text-decoration: none; font-weight: 600; font-size: 16px; color: #c9c7c7; display: inline-block;">
+                        <i class="fa-solid fa-external-link" style="margin-right: 8px;"></i>
+                        VIEW LIVE PROJECT
+                    </a>
+                </td>
+            </tr>
+
+            <!-- PROJECT IMAGES -->
+            <tr>
+                <td style="text-align: left; padding-top: 3vw;" colspan="2">
+                    <h2 style="font-weight: 400; color: #692c1a;">/_ PROJECT SHOWCASE</h2>
+                </td>
+            </tr>
+            <tr class="project-images">
+                <td style="vertical-align: top; text-align: center; padding: 20px 20px 20px 0;">
+                    <img src="../img/Expressflix/expressflix.png" class="project-image" style="width: 90%; height: auto; border-radius: 8px;">
+                    <p style="font-weight: 400; font-size: 16px; letter-spacing: 1px; margin-top: 15px;">Main Dashboard Interface</p>
+                </td>
+                <td style="vertical-align: top; text-align: center; padding: 20px 0 20px 20px;">
+                    <img src="../img/Expressflix/search.png" class="project-image" style="width: 90%; height: auto; border-radius: 8px;">
+                    <p style="font-weight: 400; font-size: 16px; letter-spacing: 1px; margin-top: 15px;">Streaming Interface</p>
+                </td>
+            </tr>
+            <tr class="project-images">
+                <td style="vertical-align: top; text-align: center; padding: 20px 20px 20px 0;">
+                    <img src="../img/Expressflix/user.png" class="project-image" style="width: 90%; height: auto; border-radius: 8px;">
+                    <p style="font-weight: 400; font-size: 16px; letter-spacing: 1px; margin-top: 15px;">User Profile Portal</p>
+                </td>
+                <td style="vertical-align: top; text-align: center; padding: 20px 0 20px 20px;">
+                    <img src="../img/Expressflix/about.png" class="project-image" style="width: 90%; height: auto; border-radius: 8px;">
+                    <p style="font-weight: 400; font-size: 16px; letter-spacing: 1px; margin-top: 15px;">About The Service</p>
+                </td>
+            </tr>
+
+            <!-- MOTIVATION -->
+            <tr>
+                <td style="text-align: left; padding-top: 3vw;" colspan="2">
+                    <h2 style="font-weight: 400; color: #4377b6;">/_ MOTIVATION</h2>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: left;">
+                    <p style="font-weight: 200; font-size: 16px; letter-spacing: 2px; line-height: 1.8;">
+                        The inspiration for ExpressFlix emerged from recognizing the complexity and challenges involved in building scalable streaming platforms. As streaming services continue to dominate the entertainment landscape, I wanted to understand the technical architecture behind content delivery systems and create a solution that could handle real-world streaming demands.
+                    </p>
+                    <br>
+                    <p style="font-weight: 200; font-size: 16px; letter-spacing: 2px; line-height: 1.8;">
+                        The project aimed to bridge the gap between theoretical knowledge and practical implementation of full-stack development. By building ExpressFlix, I sought to gain hands-on experience with cloud deployment, database optimization, and creating seamless user experiences for content consumption while ensuring the platform could scale effectively.
+                    </p>
+                </td>
+            </tr>
+
+            <!-- DEVELOPMENT APPROACH -->
+            <tr>
+                <td style="text-align: left; padding-top: 3vw;" colspan="2">
+                    <h2 style="font-weight: 400; color: #d59423;">/_ DEVELOPMENT APPROACH</h2>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: left;">
+                    <p style="font-weight: 400; font-size: 18px; letter-spacing: 1px; color: #c9c7c7;">Phase 1: Planning & Architecture</p>
+                    <p style="font-weight: 200; font-size: 14px; letter-spacing: 2px; line-height: 1.8; margin-bottom: 20px;">
+                        The initial phase focused on researching existing streaming platforms and identifying core functionalities needed for a comprehensive streaming service. I created detailed wireframes and established the technical architecture, determining the optimal tech stack combination of React, Node.js, MongoDB, and Microsoft Azure for scalability and performance.
+                    </p>
+
+                    <p style="font-weight: 400; font-size: 18px; letter-spacing: 1px; color: #c9c7c7;">Phase 2: Frontend Development</p>
+                    <p style="font-weight: 200; font-size: 14px; letter-spacing: 2px; line-height: 1.8; margin-bottom: 20px;">
+                       The React.js frontend was developed with emphasis on creating an intuitive user interface that mirrors professional streaming platforms. I implemented responsive design principles to ensure seamless functionality across devices, focusing on smooth navigation, content browsing, and user interaction patterns that enhance the overall streaming experience.
+                    </p>
+
+                    <p style="font-weight: 400; font-size: 18px; letter-spacing: 1px; color: #c9c7c7;">Phase 3: Backend & Database</p>
+                    <p style="font-weight: 200; font-size: 14px; letter-spacing: 2px; line-height: 1.8; margin-bottom: 20px;">
+                        Node.js backend development included building robust API endpoints for content management and user operations. I implemented optimized CRUD operations and applied advanced database indexing techniques in MongoDB to ensure efficient content retrieval and user data management, significantly improving query performance and response times.
+                    </p>
+
+                    <p style="font-weight: 400; font-size: 18px; letter-spacing: 1px; color: #c9c7c7;">Phase 4: Cloud Deployment</p>
+                    <p style="font-weight: 200; font-size: 14px; letter-spacing: 2px; line-height: 1.8;">
+                       Microsoft Azure deployment was configured to ensure high availability and scalability. I set up the cloud infrastructure to handle concurrent users while maintaining optimal performance, implementing best practices for security, monitoring, and automated scaling to accommodate varying traffic loads.
+                    </p>
+                </td>
+            </tr>
+
+            <!-- CREATION PROCESS -->
+            <tr>
+                <td style="text-align: left; padding-top: 3vw;" colspan="2">
+                    <h2 style="font-weight: 400; color: #9c3718;">/_ CREATION PROCESS</h2>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: left;">
+                    <p style="font-weight: 200; font-size: 16px; letter-spacing: 2px; line-height: 1.8;">
+                        The development process began with extensive analysis of popular streaming platforms to understand user expectations and technical requirements. I focused on creating a system that could efficiently handle content storage, retrieval, and streaming while maintaining a professional user experience.
+                    </p>
+                    <br>
+                    <p style="font-weight: 200; font-size: 16px; letter-spacing: 2px; line-height: 1.8;">
+                        Database optimization became a critical focus area, where I implemented strategic indexing and query fine-tuning techniques to ensure fast content loading and smooth user interactions. The MongoDB database structure was designed to support scalable content management and user profile functionality.
+                    </p>
+                    <br>
+                    <p style="font-weight: 200; font-size: 16px; letter-spacing: 2px; line-height: 1.8;">
+                        The integration of cloud services through Microsoft Azure enhanced the application's reliability and performance capabilities. I configured the deployment pipeline to support continuous integration and automated scaling, ensuring the platform could handle increased user traffic while maintaining consistent performance standards across all features.
+                    </p>
+                </td>
+            </tr>
+
+            <!-- TECHNOLOGY STACK -->
+            <tr>
+                <td style="text-align: left; padding-top: 3vw;" colspan="2">
+                    <h2 style="font-weight: 400; color: #d59423;">/_ TECHNOLOGY STACK</h2>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <section class="tech-stack" style="display: grid; grid-template-columns: auto auto auto auto; gap: 20px;">
+                        <div style="padding: 30px; text-align: center;">
+                            <i class="fa-brands fa-react" style="font-size: 3vw; color: #61dafb;"></i>
+                            <p style="margin-top: 10px;">React.js</p>
+                        </div>
+                        <div style="padding: 30px; text-align: center;">
+                            <i class="fa-brands fa-node" style="font-size: 3vw; color: #339933;"></i>
+                            <p style="margin-top: 10px;">Node.js</p>
+                        </div>
+                        <div style="padding: 30px; text-align: center;">
+                            <i class="fa-solid fa-database" style="font-size: 3vw; color: #47A248;"></i>
+                            <p style="margin-top: 10px;">MongoDB</p>
+                        </div>
+                        <div style="padding: 30px; text-align: center;">
+                            <i class="fa-solid fa-cloud" style="font-size: 3vw; color: #0078d4;"></i>
+                            <p style="margin-top: 10px;">MS Azure</p>
+                        </div>
+                    </section>
+                </td>
+            </tr>
+
+            <!-- KEY FEATURES -->
+            <tr>
+                <td style="text-align: left; padding-top: 3vw;" colspan="2">
+                    <h2 style="font-weight: 400; color: #4377b6;">/_ KEY FEATURES</h2>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: left;">
+                    <ul style="font-weight: 200; font-size: 14px; letter-spacing: 2px; line-height: 2; padding-left: 20px; list-style-type: none;">
+                        <li style="margin-bottom: 10px;"><i class="fa-solid fa-check" style="color: #692c1a; margin-right: 10px;"></i>Developed full-stack streaming application using React.js frontend and Node.js backend architecture</li>
+                        <li style="margin-bottom: 10px;"><i class="fa-solid fa-check" style="color: #692c1a; margin-right: 10px;"></i>Implemented advanced MongoDB database optimization with indexing and query fine-tuning for enhanced performance
+</li>
+                        <li style="margin-bottom: 10px;"><i class="fa-solid fa-check" style="color: #692c1a; margin-right: 10px;"></i>Deployed scalable cloud infrastructure on Microsoft Azure with automated scaling and high availability</li>
+                        <li style="margin-bottom: 10px;"><i class="fa-solid fa-check" style="color: #692c1a; margin-right: 10px;"></i>Built responsive user interface with seamless content discovery and streaming capabilities</li>
+                        <li style="margin-bottom: 10px;"><i class="fa-solid fa-check" style="color: #692c1a; margin-right: 10px;"></i>Integrated secure user authentication and profile management system with session handling</li>
+                        <li style="margin-bottom: 10px;"><i class="fa-solid fa-check" style="color: #692c1a; margin-right: 10px;"></i>Achieved optimized CRUD operations supporting multiple concurrent users and real-time content delivery</li>
+                    </ul>
+                </td>
+            </tr>
+
+            <!-- Footer Name Repeat -->
+            <tr>
+                <td colspan="2" style="padding-top: 3vw; padding-bottom: 3vw;">
+                    <div class="footer-section" style="width:50%; margin: 0 auto; text-align: center; border-top: 4px solid #1a0e43c3;">
+                        <h1 style="font-size: 45px; margin: 20px auto; padding-top: 10px;">VIRAJ SHAH</h1>
+                        <p style="font-weight: 100; font-size: 18px; letter-spacing: 2px; line-height: 1.5; margin: 14px auto; padding-left: 2px;">
+                            WEBSITE DESIGNER & DEVELOPER
+                        </p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

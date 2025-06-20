@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <meta name="description" content="Student Haven Barrie Project - Viraj Shah Portfolio">
+    <meta name="robots" content="noindex, nofollow">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/b86affd28e.js" crossorigin="anonymous"></script>
+
+    <title>Student Haven Barrie | Viraj Shah</title>
+
+    <style>
+        body {
+            width: 90%;
+            margin: auto;
+            text-align: center;
+            font-family: "Raleway", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+            background-color: #121212;
+            min-height: 100%;
+            color: whitesmoke;
+        }
+
+        h1 {
+            font-weight: 400;
+        }
+
+        .back-button:hover {
+            filter: drop-shadow(0px 0px 20px #4377b6);   
+            transition: filter 0.7s ease-in-out;    
+        }
+
+        .tech-stack > div:hover {
+            filter: drop-shadow(0px 0px 15px #d59423);   
+            transition: filter 0.7s ease-in-out;    
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 1024px) {
+            body {
+                width: 95%;
+            }
+            header td h1 {
+                font-size: 36px !important;
+            }
+            header td p {
+                font-size: 16px !important;
+            }
+            .social-section, .back-section {
+                display: block !important;
+                width: 100% !important;
+                text-align: center !important;
+                padding-right: 0 !important;
+                margin-top: 10px;
+            }
+            .social-section p {
+                letter-spacing: 12px !important;
+            }
+        }
+
+        @media (max-width: 768px) {
+            body {
+                width: 95%;
+                margin: 0;
+                padding: 0 10px;
+                text-align: center;
+            }
+            .body-content > table {
+                display: block;
+                width: 100%;
+            }
+            .body-content > table tr {
+                display: block;
+                width: 100%;
+            }
+            .body-content > table tr:first-child td {
+                display: block;
+                width: 100%;
+                text-align: center !important;
+                padding: 10px 0 !important;
+                border-bottom: 4px solid #430e0ec3 !important;
+            }
+            .body-content > table tr:first-child td:nth-child(1),
+            .body-content > table tr:first-child td:nth-child(2) {
+                display: block;
+            }
+            .social-section {
+                text-align: center !important;
+                margin-top: 10px;
+            }
+            
+            .social-section > p {
+                padding-top: 0px !important;
+            }
+
+            .back-section {
+                text-align: center !important;
+                margin: 10px auto;
+            }
+
+            .body-content img {
+                width: 100% !important;
+                max-width: none !important;
+            }
+            .body-content td[colspan] p {
+                font-size: 16px !important;
+            }
+            .body-content section.experiences,
+            .body-content table tr td {
+                width: 100% !important;
+                display: block;
+            }
+
+            .tech-stack {
+                display: grid !important;
+                grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)) !important;
+                gap: 10px;
+            }
+            .tech-stack > div {
+                padding: 15px !important;
+            }
+
+            .project-images {
+                display: block !important;
+            }
+            .project-images td {
+                display: block !important;
+                width: 100% !important;
+                padding: 10px 0 !important;
+                box-sizing: border-box;
+            }
+            .project-images img {
+                width: 90% !important;
+                height: auto !important;
+            }
+
+            .footer-section {
+                display: block !important;
+                width: 100% !important;
+                text-align: center !important;
+                border-top: 4px solid #1a0e43c3 !important;
+                padding: 20px 0 !important;
+            }
+            .footer-section h1 {
+                font-size: 36px !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="body-content">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: auto;">
+            <!-- Header Row -->
+            <tr>
+                <td style="text-align: left; border-bottom: 4px solid #430e0ec3;">
+                    <h1 style="font-size: 45px; margin: 20px auto; padding-top: 10px;">STUDENT HAVEN</h1>
+                    <p style="font-weight: 100; font-size: 18px; letter-spacing: 2px; line-height: 1.5; margin: 14px auto; padding-left: 2px;">
+                        STUDENT RENTAL HOUSING PORTAL
+                    </p>
+                    <p style="font-weight: 100; font-style: italic; font-size: 13px; letter-spacing: 2px; line-height: 1.5; margin: 14px auto; padding-left: 2px;">
+                        -A comprehensive rental housing platform connecting students with verified homeowners.
+                    </p>
+                </td>
+                <td style="height: 100%; vertical-align: top; text-align: right; padding-right: 1vw; border-bottom: 4px solid #430e0ec3;">
+                    <!-- Social icons -->
+                    <section class="social-section" style="width: fit-content; justify-self: end; letter-spacing: 18px; color: #c9c7c7; font-size: 25px;">
+                        <p style="padding-top: 20px;"> 
+                            <a href="mailto:viraj.shah1699@gmail.com" target="_blank" style="text-decoration: none;">
+                                <i class="fa-solid fa-envelope" style="color: #c9c7c7;"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/viraj-g-shah/" target="_blank" style="text-decoration: none;">
+                                <i class="fa-brands fa-linkedin" style="color: #c9c7c7;"></i>
+                            </a>
+                            <a href="https://github.com/CurlyHairedViz" target="_blank" style="text-decoration: none;">
+                                <i class="fa-brands fa-github" style="color: #c9c7c7;"></i>
+                            </a>
+                        </p>
+                </td>
+            </tr>
+
+            
+            <!-- Back to Portfolio Row -->
+            <tr>
+                <td colspan="2" style="text-align: right; padding-top: 3vw; padding-bottom: 1vw;">
+                    <section class="back-section" style="width: fit-content; margin-left: 0; text-align: center;">
+                        <a href="../index.html" class="back-button" style="padding: 15px; border-radius: 5px; background-color: #4b4b4bc3; text-decoration: none; font-weight: 600; font-size: 16px; color: #c9c7c7">
+                            <i class="fa-solid fa-angle-left"></i> BACK TO PORTFOLIO
+                        </a>
+                    </section>
+                </td>
+            </tr>
+
+            <!-- PROJECT OVERVIEW -->
+            <tr>
+                <td style="text-align: left; padding-top: 1vw; width: 50%;">
+                    <h2 style="font-weight: 400; color: #9e9e9e;">/_ PROJECT OVERVIEW</h2>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: left;">
+                    <p style="font-weight: 200; font-size: 18px; letter-spacing: 2px; line-height: 1.8;">
+                        StudentHavenBarrie is a student housing and roommate connection portal tailored for newcomers and local students in Barrie. The platform enables users to browse shared listings, connect with potential roommates, and explore neighborhood details before making a decision.
+                    </p>
+                    <br>
+                    <a href="https://studenthavenbarrie.onrender.com/" target="_blank" style="padding: 15px 25px; border-radius: 5px; background-color: #692c1a; text-decoration: none; font-weight: 600; font-size: 16px; color: #c9c7c7; display: inline-block;">
+                        <i class="fa-solid fa-external-link" style="margin-right: 8px;"></i>
+                        VIEW LIVE PROJECT
+                    </a>
+                </td>
+            </tr>
+
+            <!-- PROJECT IMAGES -->
+            <tr>
+                <td style="text-align: left; padding-top: 3vw;" colspan="2">
+                    <h2 style="font-weight: 400; color: #692c1a;">/_ PROJECT SHOWCASE</h2>
+                </td>
+            </tr>
+            <tr class="project-images">
+                <td style="vertical-align: top; text-align: center; padding: 20px 20px 20px 0;">
+                    <img src="../img/Studenthaven/studenthavenbarrie.png" class="project-image" style="width: 90%; height: auto; border-radius: 8px;">
+                    <p style="font-weight: 400; font-size: 16px; letter-spacing: 1px; margin-top: 15px;">Main Dashboard Interface</p>
+                </td>
+                <td style="vertical-align: top; text-align: center; padding: 20px 0 20px 20px;">
+                    <img src="../img/Studenthaven/aim.png" class="project-image" style="width: 90%; height: auto; border-radius: 8px;">
+                    <p style="font-weight: 400; font-size: 16px; letter-spacing: 1px; margin-top: 15px;">Motive</p>
+                </td>
+            </tr>
+            <tr class="project-images">
+                <td style="vertical-align: top; text-align: center; padding: 20px 20px 20px 0;">
+                    <img src="../img/Studenthaven/features.png" class="project-image" style="width: 90%; height: auto; border-radius: 8px;">
+                    <p style="font-weight: 400; font-size: 16px; letter-spacing: 1px; margin-top: 15px;">Features & Services</p>
+                </td>
+                <td style="vertical-align: top; text-align: center; padding: 20px 0 20px 20px;">
+                    <img src="../img/Studenthaven/advices.png" class="project-image" style="width: 90%; height: auto; border-radius: 8px;">
+                    <p style="font-weight: 400; font-size: 16px; letter-spacing: 1px; margin-top: 15px;">Tips & Advices</p>
+                </td>
+            </tr>
+
+            <!-- MOTIVATION -->
+            <tr>
+                <td style="text-align: left; padding-top: 3vw;" colspan="2">
+                    <h2 style="font-weight: 400; color: #4377b6;">/_ MOTIVATION</h2>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: left;">
+                    <p style="font-weight: 200; font-size: 16px; letter-spacing: 2px; line-height: 1.8;">
+                        The inspiration for Student Haven Barrie emerged from recognizing the challenges students face in finding affordable and reliable rental housing in the Barrie area. As a growing university town, the disconnect between students seeking accommodation and homeowners offering rental properties created an opportunity to develop a centralized platform that could streamline the entire rental process.
+                    </p>
+                    <br>
+                    <p style="font-weight: 200; font-size: 16px; letter-spacing: 2px; line-height: 1.8;">
+                        The project aimed to address the lack of transparency and security in student housing searches while providing homeowners with a trusted platform to connect with verified student tenants. This initiative focused on creating a comprehensive solution that would eliminate the frustrations of traditional rental searching and establish a secure, efficient marketplace for student housing.
+                    </p>
+                </td>
+            </tr>
+
+            <!-- DEVELOPMENT APPROACH -->
+            <tr>
+                <td style="text-align: left; padding-top: 3vw;" colspan="2">
+                    <h2 style="font-weight: 400; color: #d59423;">/_ DEVELOPMENT APPROACH</h2>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: left;">
+                    <p style="font-weight: 400; font-size: 18px; letter-spacing: 1px; color: #c9c7c7;">Phase 1: Planning & Architecture</p>
+                    <p style="font-weight: 200; font-size: 14px; letter-spacing: 2px; line-height: 1.8; margin-bottom: 20px;">
+                        The initial phase focused on understanding the rental market dynamics and user requirements from both students and homeowners. I designed a comprehensive system architecture using Express.js framework and established database schemas that could support complex rental listings, user profiles, and communication workflows.
+                    </p>
+
+                    <p style="font-weight: 400; font-size: 18px; letter-spacing: 1px; color: #c9c7c7;">Phase 2: Frontend Development</p>
+                    <p style="font-weight: 200; font-size: 14px; letter-spacing: 2px; line-height: 1.8; margin-bottom: 20px;">
+                        The user interface was developed using Handlebars templating engine to create dynamic, server-rendered pages that provided seamless user experience. I implemented responsive design principles to ensure accessibility across devices, with separate interfaces optimized for students searching for housing and homeowners managing their rental listings.
+                    </p>
+
+                    <p style="font-weight: 400; font-size: 18px; letter-spacing: 1px; color: #c9c7c7;">Phase 3: Backend & Database</p>
+                    <p style="font-weight: 200; font-size: 14px; letter-spacing: 2px; line-height: 1.8; margin-bottom: 20px;">
+                        Node.js backend implementation included robust Express.js server configuration with comprehensive API endpoints for rental management, user authentication, and communication systems. MongoDB was structured to handle complex relationships between users, properties, applications, and messaging systems with optimized queries for search functionality.
+                    </p>
+
+                    <p style="font-weight: 400; font-size: 18px; letter-spacing: 1px; color: #c9c7c7;">Phase 4: Security & Admin Systems</p>
+                    <p style="font-weight: 200; font-size: 14px; letter-spacing: 2px; line-height: 1.8;">
+                        Implemented multi-layered security architecture including user authentication, session management, and admin approval workflows. The admin functionality was designed to maintain platform integrity by verifying users and monitoring rental listings, ensuring a trusted environment for all platform participants.
+                    </p>
+                </td>
+            </tr>
+
+            <!-- CREATION PROCESS -->
+            <tr>
+                <td style="text-align: left; padding-top: 3vw;" colspan="2">
+                    <h2 style="font-weight: 400; color: #9c3718;">/_ CREATION PROCESS</h2>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: left;">
+                    <p style="font-weight: 200; font-size: 16px; letter-spacing: 2px; line-height: 1.8;">
+                        The development process began with extensive research into existing rental platforms and identifying gaps in student-focused housing solutions. I analyzed user behavior patterns and rental market trends to design features that would address the specific needs of students and property owners in the Barrie area.
+                    </p>
+                    <br>
+                    <p style="font-weight: 200; font-size: 16px; letter-spacing: 2px; line-height: 1.8;">
+                        Security implementation became a central focus, where I developed comprehensive user authentication systems and admin approval workflows to prevent unauthorized access and maintain platform integrity. The system was designed to verify both student and homeowner identities while protecting sensitive personal and financial information.
+                    </p>
+                    <br>
+                    <p style="font-weight: 200; font-size: 16px; letter-spacing: 2px; line-height: 1.8;">
+                        The platform architecture emphasized end-to-end communication capabilities, enabling secure messaging between students and homeowners while maintaining privacy and facilitating transparent rental negotiations. Integration of approval workflows ensured quality control and reduced fraudulent listings.
+                    </p>
+                </td>
+            </tr>
+
+            <!-- TECHNOLOGY STACK -->
+            <tr>
+                <td style="text-align: left; padding-top: 3vw;" colspan="2">
+                    <h2 style="font-weight: 400; color: #d59423;">/_ TECHNOLOGY STACK</h2>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <section class="tech-stack" style="display: grid; grid-template-columns: auto auto auto auto; gap: 20px;">
+                        <div style="padding: 30px; text-align: center;">
+                            <i class="fa-brands fa-node-js" style="font-size: 3vw; color: #61dafb;"></i>
+                            <p style="margin-top: 10px;">Express JS</p>
+                        </div>
+                        <div style="padding: 30px; text-align: center;">
+                            <i class="fa-brands fa-node" style="font-size: 3vw; color: #339933;"></i>
+                            <p style="margin-top: 10px;">Node.js</p>
+                        </div>
+                        <div style="padding: 30px; text-align: center;">
+                            <i class="fa-solid fa-database" style="font-size: 3vw; color: #47A248;"></i>
+                            <p style="margin-top: 10px;">MongoDB</p>
+                        </div>
+                        <div style="padding: 30px; text-align: center;">
+                            <i class="fa-brands fa-js" style="font-size: 3vw; color: #0078d4;"></i>
+                            <p style="margin-top: 10px;">JavaScript</p>
+                        </div>
+                    </section>
+                </td>
+            </tr>
+
+            <!-- KEY FEATURES -->
+            <tr>
+                <td style="text-align: left; padding-top: 3vw;" colspan="2">
+                    <h2 style="font-weight: 400; color: #4377b6;">/_ KEY FEATURES</h2>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: left;">
+                    <ul style="font-weight: 200; font-size: 14px; letter-spacing: 2px; line-height: 2; padding-left: 20px; list-style-type: none;">
+                        <li style="margin-bottom: 10px;"><i class="fa-solid fa-check" style="color: #692c1a; margin-right: 10px;"></i>Developed comprehensive rental housing platform using Express.js and Node.js for seamless student-homeowner connections</li>
+                        <li style="margin-bottom: 10px;"><i class="fa-solid fa-check" style="color: #692c1a; margin-right: 10px;"></i>Implemented secure user authentication and admin approval system reducing unauthorized access and fraudulent listings</li>
+                        <li style="margin-bottom: 10px;"><i class="fa-solid fa-check" style="color: #692c1a; margin-right: 10px;"></i>Built end-to-end communication system facilitating transparent rental negotiations and property inquiries</li>
+                        <li style="margin-bottom: 10px;"><i class="fa-solid fa-check" style="color: #692c1a; margin-right: 10px;"></i>Created responsive web interface using Handlebars templating engine optimized for both mobile and desktop users</li>
+                        <li style="margin-bottom: 10px;"><i class="fa-solid fa-check" style="color: #692c1a; margin-right: 10px;"></i>Designed MongoDB database architecture supporting complex rental listings, user profiles, and messaging workflows</li>
+                        <li style="margin-bottom: 10px;"><i class="fa-solid fa-check" style="color: #692c1a; margin-right: 10px;"></i>Established multi-layered security protocols ensuring platform integrity and protecting user data throughout rental process</li>
+                    </ul>
+                </td>
+            </tr>
+
+            <!-- Footer Name Repeat -->
+            <tr>
+                <td colspan="2" style="padding-top: 3vw; padding-bottom: 3vw;">
+                    <div class="footer-section" style="width:50%; margin: 0 auto; text-align: center; border-top: 4px solid #1a0e43c3;">
+                        <h1 style="font-size: 45px; margin: 20px auto; padding-top: 10px;">VIRAJ SHAH</h1>
+                        <p style="font-weight: 100; font-size: 18px; letter-spacing: 2px; line-height: 1.5; margin: 14px auto; padding-left: 2px;">
+                            WEBSITE DESIGNER & DEVELOPER
+                        </p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
