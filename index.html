@@ -32,9 +32,18 @@
             font-weight: 400;
         }
 
+        .resume-section > a:hover {
+            filter: drop-shadow(0px 0px 25px #d00303);
+            transition: filter 0.2s ease-in-out;
+        }
+
         .projects > td:hover {
             filter: drop-shadow(0px 0px 50px #692c1a);   
             transition: filter 0.7s ease-in-out;
+        }
+
+        .projects > td:hover p:first-of-type {
+            text-decoration: underline !important;
         }
 
         .skills > div:hover {
@@ -318,17 +327,19 @@
                     <a href="projects/expressflix.html" style="text-decoration: none; color: whitesmoke;">
                         <img src="img/Expressflix/expressflix.png" style="width: 90%; height: auto;">
                         <p style="font-weight: 400; font-size: 18px; letter-spacing: 1px;">EXPRESSFLIX</p>
+                    
+                        <p style="font-weight: 200; font-style: italic; font-size: 12px; letter-spacing: 2px; padding: 0;"> Technologies: React, MongoDB, MS Azure, Node.js </p>
+                        <p style="font-weight: 200; font-size: 14px; letter-spacing: 2px; line-height: 1.8;"> Built a scalable content streaming web application with optimized CRUD operations. Deployed application on Microsoft Azure for enhanced performance and availability. Applied database indexing and query fine-tuning to improve efficiency. </p>
                     </a>
-                    <p style="font-weight: 200; font-style: italic; font-size: 12px; letter-spacing: 2px; padding: 0;"> Technologies: React, MongoDB, MS Azure, Node.js </p>
-                    <p style="font-weight: 200; font-size: 14px; letter-spacing: 2px; line-height: 1.8;"> Built a scalable content streaming web application with optimized CRUD operations. Deployed application on Microsoft Azure for enhanced performance and availability. Applied database indexing and query fine-tuning to improve efficiency. </p>
                 </td>
                 <td style="vertical-align: top; text-align: left; padding: 20px 0 20px 20px;">
                     <a href="projects/greengauge.html" style="text-decoration: none; color: whitesmoke;">
                         <img src="img/Greengauge/greengauge.png" style="width: 90%; height: auto;">
                         <p style="font-weight: 400; font-size: 18px; letter-spacing: 1px;">GREEN GAUGE</p>
+                    
+                        <p style="font-weight: 200; font-style: italic; font-size: 12px; letter-spacing: 2px; padding: 0;"> Technologies: Express, MongoDB, Handlebars, Atlas Charts, ES6, Node.js, JavaScript</p>
+                        <p style="font-weight: 200; font-size: 14px; letter-spacing: 2px; line-height: 1.8;"> Developed a full-stack web application with optimized UI/UX and authentication. Designed a NoSQL database with query optimization and JSON data processing. Implemented data visualization using Atlas Charts for real-time insights. </p>                    
                     </a>
-                    <p style="font-weight: 200; font-style: italic; font-size: 12px; letter-spacing: 2px; padding: 0;"> Technologies: Express, MongoDB, Handlebars, Atlas Charts, ES6, Node.js, JavaScript</p>
-                    <p style="font-weight: 200; font-size: 14px; letter-spacing: 2px; line-height: 1.8;"> Developed a full-stack web application with optimized UI/UX and authentication. Designed a NoSQL database with query optimization and JSON data processing. Implemented data visualization using Atlas Charts for real-time insights. </p>                    
                 </td>
             </tr>
             <tr class="projects">
@@ -336,17 +347,19 @@
                     <a href="projects/spidercover.html" style="text-decoration: none; color: whitesmoke;">
                         <img src="img/Spidercover/spidercover.png" style="width: 50%; height: auto;">
                         <p style="font-weight: 400; font-size: 18px; letter-spacing: 1px; padding: 0;">SPIDER-COVER</p>
+                    
+                        <p style="font-weight: 200; font-style: italic; font-size: 12px; letter-spacing: 2px; padding: 0;">Technologies: HTML, CSS </p>
+                        <p style="font-weight: 200; font-size: 14px; letter-spacing: 2px; line-height: 1.8;"> Transformed Marvel’s Spider-Man magazine cover into a responsive webpage using HTML and CSS, capturing the dynamic spirit of the title while showcasing robust design and precise coding skills.  </p>
                     </a>
-                    <p style="font-weight: 200; font-style: italic; font-size: 12px; letter-spacing: 2px; padding: 0;">Technologies: HTML, CSS </p>
-                    <p style="font-weight: 200; font-size: 14px; letter-spacing: 2px; line-height: 1.8;"> Transformed Marvel’s Spider-Man magazine cover into a responsive webpage using HTML and CSS, capturing the dynamic spirit of the title while showcasing robust design and precise coding skills.  </p>
                 </td>
                 <td style="vertical-align: top; text-align: left; padding: 20px 0 20px 20px;">
                     <a href="projects/studenthaven.html" style="text-decoration: none; color: whitesmoke;">
                         <img src="img/Studenthaven/studenthavenbarrie.png" style="width: 90%; height: auto;">
                         <p style="font-weight: 400; font-size: 18px; letter-spacing: 1px; padding: 0;">STUDENT HAVEN BARRIE</p>
+                    
+                        <p style="font-weight: 200; font-style: italic; font-size: 12px; letter-spacing: 2px; padding: 0;">Technologies: Express, MongoDB, Handlebars, Node.js, JavaScript </p>
+                        <p style="font-weight: 200; font-size: 14px; letter-spacing: 2px; line-height: 1.8;"> Developed a rental housing system using Express.js facilitating end-to-end communication and negotiation for students and homeowners. Ensured platform integrity and user data security by implementing user authentication and admin approval functionality, reducing unauthorized access.</p>
                     </a>
-                    <p style="font-weight: 200; font-style: italic; font-size: 12px; letter-spacing: 2px; padding: 0;">Technologies: Express, MongoDB, Handlebars, Node.js, JavaScript </p>
-                    <p style="font-weight: 200; font-size: 14px; letter-spacing: 2px; line-height: 1.8;"> Developed a rental housing system using Express.js facilitating end-to-end communication and negotiation for students and homeowners. Ensured platform integrity and user data security by implementing user authentication and admin approval functionality, reducing unauthorized access.</p>
                 </td>
             </tr>
             <tr class="projects">
@@ -354,9 +367,10 @@
                     <a href="projects/beerbbq.html" style="text-decoration: none; color: whitesmoke;">
                         <img src="img/BearBBQ/beerbbq.png" style="width: 90%; height: auto;">
                         <p style="font-weight: 400; font-size: 18px; letter-spacing: 1px; padding: 0;">BEER, BBQ & BIRYANI</p>
+                    
+                        <p style="font-weight: 200; font-style: italic; font-size: 12px; letter-spacing: 2px; padding: 0;">Technologies: HTML, CSS </p>
+                        <p style="font-weight: 200; font-size: 14px; letter-spacing: 2px; line-height: 1.8;"> Developed a brand website landing page which provided users with introduction to the brand and its products along with allowing them access to its services.</p>
                     </a>
-                    <p style="font-weight: 200; font-style: italic; font-size: 12px; letter-spacing: 2px; padding: 0;">Technologies: HTML, CSS </p>
-                    <p style="font-weight: 200; font-size: 14px; letter-spacing: 2px; line-height: 1.8;"> Developed a brand website landing page which provided users with introduction to the brand and its products along with allowing them access to its services.</p>
                 </td>
             </tr>
 
